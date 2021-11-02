@@ -1,0 +1,129 @@
+body {
+	font-family: 'Open Sans', sans-serif;
+	background-color: #91a7b5;
+	color: Darkblue;
+	text-align: center;
+
+ }
+
+h1 {
+   font-weight: bolder;
+   font-size: 48px;
+   color: black;
+
+ }
+img {
+	border-radius: 50%;
+	width: 200px;
+	height: 200px;
+ }
+
+h2 {
+	color: green;
+ }
+
+a {
+	text-decoration: none;
+	color: darkblue;
+	font-size: 20px;
+ }
+p{
+	color: darkblue;
+	line-height: 1;
+ }
+
+ul{
+	padding: 0;
+ }
+
+h3{
+	color: darkblue;
+	line-height: 1;
+	font-size: 25px;
+ }
+.container{
+	width: 500px;
+	margin: 100px auto;
+ }
+
+.card-white{ 
+	background-color: white;
+	border: solid green;
+	margin: 16px;
+	border-radius: 10px;
+	box-shadow: 6px 16px 24px rgba(0, 0, 0,0.5);
+ }
+
+ .lewagon{
+ 	background-color: blue;
+ 	padding: 5px;
+ 	color: white;
+ 	border-radius: 10px;
+ 	text-transform: uppercase;
+ 	line-height: 3;
+ }
+
+ .lewagon:hover{
+ 	background-color: grey;
+ }
+
+ .inline li{
+ display: inline;
+ font-size: 40px;
+ }
+
+ .inline i{
+ 	font-size: 50px;
+ 	color: green;
+ 	line-height: 1;
+ }
+
+ .inline i:hover{
+ 	color: grey;
+ }
+
+ .passion i{
+ 	font-size: 20px;
+ 	color: green;
+ }
+
+ .passion{
+ 	color: darkblue;
+ 	font-size: 17px;
+ 	list-style: none;
+	padding: 0px; 
+ }
+ 
+ .contact{
+ 	text-decoration: none;
+ 	padding: 0;
+ 	list-style: none;
+ }
+
+@media(max-width: 600px) {
+	.container{
+		background-color: red;
+	}
+}
+
+@media(max-width: 600px){
+	.container{}
+	.card-white{
+		background: black;
+	}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
